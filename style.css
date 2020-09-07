@@ -1,12 +1,16 @@
+/*Global styles
+-------------------------------------------*/
 html {
   box-sizing: border-box;
 }
 
 body {
   font-size: 16px;
+  font-weight: 400;
   background-color: hsl(204, 43%, 93%);
   width: 100vw;
   height: 100vh;
+  font-family: 'Karla', sans-serif;
 }
 
 *,
@@ -15,14 +19,17 @@ body {
   box-sizing: inherit;
 }
 
+/*Body styles
+-------------------------------------------*/
 .outer-flex {
   display: flex;
   flex-direction: column;
   width: 40%;
   margin-top: 10%;
-    margin-bottom: 10%;
-    margin-right:30%;
-    margin-left:30%;
+  margin-bottom: 10%;
+  margin-right: 30%;
+  margin-left: 30%;
+  
 }
 
 .inner-flex {
@@ -32,11 +39,39 @@ body {
 
 .flex-top {
   background-color: #ffffff;
-  
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 .flex-right {
   background-color: hsl(179, 62%, 43%);
+  color:#ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 .flex-left {
   background-color: hsl(179, 62%, 43%);
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*Heading styles
+-------------------------------------------*/
+h2{
+    color:hsl(179, 62%, 43%);
+}
+
+.guarantee{
+    color: hsl(71, 73%, 54%);
+}
+/*Other styles
+-------------------------------------------*/
+li{
+    list-style-type: none;
+    color: hsl(204, 43%, 93%);
+}
+section{
+    color:hsl(218, 22%, 67%)
 }
