@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-size: 16px;
+  
   font-weight: 400;
   background-color: hsl(204, 43%, 93%);
   width: 100vw;
@@ -24,7 +24,7 @@ body {
 .outer-flex {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 45%;
   margin-top: 10%;
   margin-bottom: 10%;
   margin-right: 30%;
@@ -42,12 +42,17 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
+  
+}
+.flex-bottom{
+  
 }
 .flex-right {
   background-color: hsl(179, 62%, 43%);
   color:#ffffff;
   padding-left: 20px;
   padding-right: 20px;
+ 
 
 }
 .flex-left {
@@ -61,17 +66,29 @@ body {
 -------------------------------------------*/
 h2{
     color:hsl(179, 62%, 43%);
+    
 }
 
 .guarantee{
     color: hsl(71, 73%, 54%);
+
 }
 /*Other styles
 -------------------------------------------*/
 li{
     list-style-type: none;
     color: hsl(204, 43%, 93%);
+    font-size: 16px;
+     
 }
 section{
     color:hsl(218, 22%, 67%)
+}
+span{
+    font-size:30px;
+}
+ul{
+    padding-left: 0pt;
+    padding-right: 50px;
+    
 }
