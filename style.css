@@ -1,23 +1,31 @@
 /*Global styles
 -------------------------------------------*/
-html {
+* {
+  /* margin: 0; */
+  /* padding: 0; */
   box-sizing: border-box;
+}
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
 }
 
 body {
-  
+  max-width: 1440px;
   font-weight: 400;
   background-color: hsl(204, 43%, 93%);
   width: 100vw;
   height: 100vh;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
-*,
+/* *,
 *:before,
 *:after {
   box-sizing: inherit;
-}
+} */
 
 /*Body styles
 -------------------------------------------*/
@@ -29,7 +37,6 @@ body {
   margin-bottom: 10%;
   margin-right: 30%;
   margin-left: 30%;
-  
 }
 
 .inner-flex {
@@ -39,21 +46,15 @@ body {
 
 .flex-top {
   background-color: #ffffff;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  
+  padding: 0 20px 20px 20px;
 }
-.flex-bottom{
-  
+.flex-bottom {
 }
 .flex-right {
-  background-color: hsl(179, 62%, 43%);
-  color:#ffffff;
+  background-color: var(--cyan);
+  color: #ffffff;
   padding-left: 20px;
   padding-right: 20px;
- 
-
 }
 .flex-left {
   background-color: hsl(179, 62%, 43%);
@@ -64,31 +65,27 @@ body {
 
 /*Heading styles
 -------------------------------------------*/
-h2{
-    color:hsl(179, 62%, 43%);
-    
+h2 {
+  color: hsl(179, 62%, 43%);
 }
 
-.guarantee{
-    color: hsl(71, 73%, 54%);
-
+.guarantee {
+  color: hsl(71, 73%, 54%);
 }
 /*Other styles
 -------------------------------------------*/
-li{
-    list-style-type: none;
-    color: hsl(204, 43%, 93%);
-    font-size: 16px;
-     
+li {
+  list-style-type: none;
+  color: hsl(204, 43%, 93%);
+  font-size: 16px;
 }
-section{
-    color:hsl(218, 22%, 67%)
+section {
+  color: hsl(218, 22%, 67%);
 }
-span{
-    font-size:30px;
+span {
+  font-size: 30px;
 }
-ul{
-    padding-left: 0pt;
-    padding-right: 50px;
-    
+ul {
+  padding-left: 0pt;
+  padding-right: 50px;
 }
