@@ -48,13 +48,14 @@ body {
   background-color: #ffffff;
   padding: 0 20px 20px 20px;
 }
-.flex-bottom {
-}
+/* .flex-bottom {
+} */
 .flex-right {
   background-color: var(--cyan);
   color: #ffffff;
   padding-left: 20px;
   padding-right: 20px;
+  width: 55%;
 }
 .flex-left {
   background-color: hsl(179, 62%, 43%);
@@ -82,10 +83,22 @@ li {
 section {
   color: hsl(218, 22%, 67%);
 }
-span {
+.dollar {
   font-size: 30px;
 }
 ul {
   padding-left: 0pt;
   padding-right: 50px;
+}
+.button {
+  background-color: var(--bright-yellow);
+  padding: 15px;
+  text-align: center;
+}
+.per-month {
+  color: hsl(204, 43%, 93%);
+}
+.access {
+  padding-bottom: 20px;
+  padding-top: 15px;
 }
