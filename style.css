@@ -58,6 +58,7 @@ body {
   width: 50%;
   padding-top: 20px;
   filter: saturate(110%);
+  padding-bottom: 35px;
 }
 .flex-left {
   background-color: hsl(179, 62%, 43%);
@@ -78,6 +79,12 @@ h2 {
 .guarantee {
   color: hsl(71, 73%, 54%);
 }
+h4{
+  color: hsl(204, 43%, 93%);
+}
+.why-us{
+  color: hsla(203, 44%, 93%, 0.747);;
+}
 /*Other styles
 -------------------------------------------*/
 li {
@@ -91,6 +98,7 @@ section {
 }
 .dollar {
   font-size: 30px;
+  text-align: center;
 }
 ul {
   padding-left: 0pt;
@@ -103,14 +111,18 @@ ul {
   text-align: center;
   box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  
+  filter: brightness(110%);
+  font-weight: bolder;
 }
 .per-month {
-  color: hsl(204, 43%, 93%);
+  color: hsla(203, 44%, 93%, 0.712);
+  text-align: center;
+  
 }
 .access {
-  padding-bottom: 25px;
-  padding-top: 15px;
+  padding-bottom: 35px;
+  padding-top: 12px;
+  color:hsl(204, 43%, 93%);
 }
 section{
   padding-bottom: 15px;
