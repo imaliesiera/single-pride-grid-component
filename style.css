@@ -32,7 +32,7 @@ body {
 .outer-flex {
   display: flex;
   flex-direction: column;
-  width: 620px;
+  width: 55%;
   margin-top: 10%;
   margin-bottom: 10%;
   margin-right: 25%;
@@ -79,11 +79,11 @@ h2 {
 .guarantee {
   color: hsl(71, 73%, 54%);
 }
-h4{
+h4 {
   color: hsl(204, 43%, 93%);
 }
-.why-us{
-  color: hsla(203, 44%, 93%, 0.747);;
+.why-us {
+  color: hsla(203, 44%, 93%, 0.747);
 }
 /*Other styles
 -------------------------------------------*/
@@ -91,7 +91,6 @@ li {
   list-style-type: none;
   color: hsla(203, 44%, 93%, 0.562);
   font-size: 16px;
-  
 }
 section {
   color: hsl(218, 22%, 67%);
@@ -117,13 +116,42 @@ ul {
 .per-month {
   color: hsla(203, 44%, 93%, 0.712);
   text-align: center;
-  
 }
 .access {
   padding-bottom: 35px;
   padding-top: 12px;
-  color:hsl(204, 43%, 93%);
+  color: hsl(204, 43%, 93%);
 }
-section{
+section {
   padding-bottom: 15px;
+}
+
+/*Responsive styles
+-------------------------------------------*/
+@media screen and (max-width: 700px) {
+  .inner-flex {
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+  }
+
+  .outer-flex {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-right: 10%;
+    margin-left: 5%;
+  }
+
+  .flex-top {
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    line-height: 4vh;
+  }
+  .flex-right {
+    padding: 20px 20px 20px 20px;
+  }
+  .flex-left {
+    padding: 20px 20px 20px 20px;
+  }
 }
